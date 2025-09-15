@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Live server inclusão de fontes do Google fonts e integração do CSS utilizando um arquivo CSS externo. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header class="cabecalho"> <!-- Cabeçalho interativo, utilizando mais 3 arquivos em html para fazer as outras 3 páginas -->
+        <nav>
+            <ul class="cabecalho__itens">
+                <li>
+                    <a href="index.html" class="cabecalho__itens__links">Home</a>
+                </li>
+                <li>
+                    <a href="sobre__mim.html" class="cabecalho__itens__links">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="projetos.html" class="cabecalho__itens__links">Projetos</a>
+                </li>
+                <li>
+                    <a href="certificados.html" class="cabecalho__itens__links">Certificados</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="principal" style="padding: 4rem;"> <!-- Introdução dos meus certificados com CSS integrado neste código, com cursos recém concluídos porem sem um certifciado oficial. -->
+        <section class="apresentacao__quatro">
+            <h1 style="text-align: center; margin: 0; padding: 1rem;">Cruzeiro do Sul</h1>
+            <div class="apresentacao__quatro__certificado">
+                <img src="img/crsul.png" style="border: solid 10px" alt="Logo da instituição Cruzeiro do Sul">
+                <p class="apresentacao__quatro__texto">Certificado de conclusão de curso (EAD) de Técnico em Eletrônica - Cruzeiro do Sul</p>
+            </div>    
+        </section>
+        <section style="margin-top: 2rem;">
+            <h1 style="text-align: center;">Wizard</h1>
+            <div class="apresentacao__quatro__certificado">
+                <img src="Img/wizard.png" style="border: solid 10px" alt="Logo da escola de idiomas Wizard">
+                <p class="apresentacao__quatro__texto">Certificado de conclusão de curso (presencial) língua estrangeira: Inglês - Wizard</p>
+            </div>    
+        </section>
+    </section>
+     <footer class="rodape">
+        <p>Direitos reservados para André Nascimento. &copy;</p>
+    </footer>

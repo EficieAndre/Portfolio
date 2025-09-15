@@ -1,0 +1,239 @@
+.cabecalho__itens /* Espaçamento dos itens do cabeçalho */ {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.cabecalho__itens__links /* Estética dos itens do cabeçalho com fonte personalizada e com links para ir para outras páginas */ { 
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecalho /* Fundo do cabeçalho */ {
+    background-color: #0c0268;
+    padding: 0.75rem;
+}
+
+.principal /* Cor de fundo das páginas */ {
+    background-color: #FFF4B4;
+}
+
+.apresentacao /* Alinhamento do texto de apresentação da página Home */ {
+    text-align: center;
+    
+}
+
+.apresentacao__imagem /* Propriedades da imagem da página Home */ {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20rem;
+    border: solid 15px;
+    height: 500px;
+    width: 400px;
+}
+
+.apresentacao__texto /* Texto da página Home */ {
+    font-size: 48px;
+    padding: 4rem;
+}
+
+.texto__verde /* Função para ser utilizada como destaque de palavras, sendo utilizada para destacar palavras nos textos e subtítulos */ {
+    color: green;
+}
+
+.apresentacao__links /* Alinhamento das flexboxes dos links das minhas redes sociais */ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links__navegacao /* Alinhamento e fonte personalizada para os links das minhasredes sociais */  {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 25%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.apresentacao__links__navegacao:hover /* Efeito hover nos links das minhas redes sociais */ {
+    background-color: green;
+    border-radius: 1rem;
+    
+}
+
+.apresentacao__links__subtitulo /* Alinhamento e fonte personalizada do subtítulo apresentando minhas redes sociais */ {
+    font-size: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__imagem__link /* Tamanho das imagens das logos das redes sociais */ {
+    width: 50px;
+}
+
+.rodape /* Rodapé da página, com fundo azul e texto branco alinhado */ {
+    text-align: center;
+    padding: 1rem;
+    font-size: 58px;
+    background-color: #0c0268;
+    color: white;
+}
+
+.apresentacao__sobre__mim  /* Alinhamento e adição de flexbox no texto sobre mim*/ {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+    padding: 4rem;
+}
+
+.sobre__mim__imagem /* Propriedades da imagem da página sobre mim.*/ {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20rem;
+    border: solid 15px;
+    height: 500px;
+    width: 400px;
+
+}
+
+.apresentacao__dois /* Criação de flexbox para a introdução do texto sobre mim */ {
+    display: flex;
+}
+
+p /* Deixar todos os paragráfos com uma fonte personalizada do Google fonts */ {  
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 /* Deixar todos os h1 com fonte personalizada do Google fonts */  {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.apresentacao__tres /* Adição de flexbox para a introdução do texto de introdução do projeto */ {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+
+
+} 
+
+.apresentacao__tres__materiais /* Adição de flexbox e alinhamento para introdução de subtítulo */ {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentacao__tres__materiais__lista /* Adição de flexbox e alinhamento para a introdução de lista de materiais para o projeto */ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    padding: 1rem;
+}
+
+.apresentacao__tres__titulo /* Fonte personalizada para o título do projeto */ {
+    font-size: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.apresentacao__quatro__certificado /* Adição de flexbox e alinhamento para a introdução do nome das instituições */ {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.apresentacao__quatro__texto /* Alinhamento e tamanho dos textos dos certificados */ {
+    font-size: 24px;
+    max-width: 300px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) /* Código de responsividade */ {
+    .cabecalho__itens__links {
+        font-size: 16px;
+    }
+        
+    .apresentacao__imagem {
+        width: 200px;
+        height: 200px;
+        border: solid 10px;
+    }
+
+    .apresentacao__texto {
+        font-size: 16px;
+        padding: 1rem;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 16px 0px;
+    }
+
+    .apresentacao__links__subtitulo {
+        font-size: 2.5rem;
+    }
+
+    .rodape {
+        font-size: 16px;
+        padding: 0.5rem;
+    }
+
+    .apresentacao__sobre__mim {
+        font-size: 32px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre__mim__imagem {
+        width: 200px;
+        height: 200px;
+        border: solid 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .apresentacao__tres__materiais__lista {
+        font-size: 10px;
+        padding: 0.5rem;
+    }
+
+    .apresentacao__tres__subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__quatro__certificado {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .apresentacao__quatro__texto {
+        font-size: 12px;
+        max-width: 200px;
+    }    
+}

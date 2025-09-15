@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!-- Live server inclusão de fontes do Google fonts e integração do CSS utilizando um arquivo CSS externo. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body> 
+    <header class="cabecalho"> <!-- Cabeçalho interativo, utilizando mais 3 arquivos em html para fazer as outras 3 páginas -->
+        <nav>
+            <ul class="cabecalho__itens">
+                <li>
+                    <a href="index.html" class="cabecalho__itens__links">Home</a>
+                </li>
+                <li>
+                    <a href="sobre__mim.html" class="cabecalho__itens__links">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="projetos.html" class="cabecalho__itens__links">Projetos</a>
+                </li>
+                <li>
+                    <a href="certificados.html" class="cabecalho__itens__links">Certificados</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal"> <!-- Breve apresentação, utilizando imagens e fontes personalizadas, com links e flexboxes -->
+        <section class="apresentacao">
+            <img  src="Img/foto.jpg" class="apresentacao__imagem" alt="Foto de André Nascimento">
+            <p class="apresentacao__texto"> André Nascimento, 19 anos, <span class="texto__verde">cursando Engenharia de Computação</span> na instituição de ensino UNISANTA, iniciante no rumo da  programação, experiente e apaixonado por <span class="texto__verde">hardware</span>.</p>
+        </section>
+        <section>
+            <div class="apresentacao__links" style="padding: 2rem;">
+                <h2 class="apresentacao__links__subtitulo">Acesse Minhas Redes</h2>
+                <a class="apresentacao__links__navegacao" href="https://instagram.com/andre_n_o">
+                    <img src="img/instagram.png" alt="Imagem da logo do Instagram" class="apresentacao__imagem__link">
+                Instagram</a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/eficieandre">
+                    <img src="img/github.png" alt="Imagem da logo do GitHub" class="apresentacao__imagem__link">
+                GitHub</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/eficieandre">
+                    <img src="img/linkedin.png" alt="Imagem da logo do LinkendIn" class="apresentacao__imagem__link">
+                LinkendIn</a>
+            </div>
+        </section>
+        <footer class="rodape"> 
+            <p>Direitos reservados para André Nascimento. &copy;</p>
+        </footer>
+    </main>
+</body>
+</html>

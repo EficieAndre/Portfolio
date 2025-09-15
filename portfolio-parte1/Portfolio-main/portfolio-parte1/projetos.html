@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Live server inclusão de fontes do Google fonts e integração do CSS utilizando um arquivo CSS externo. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header class="cabecalho"> <!-- Cabeçalho interativo, utilizando mais 3 arquivos em html para fazer as outras 3 páginas -->
+        <nav>
+            <ul class="cabecalho__itens">
+                <li>
+                    <a href="index.html" class="cabecalho__itens__links">Home</a>
+                </li>
+                <li>
+                    <a href="sobre__mim.html" class="cabecalho__itens__links">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="projetos.html" class="cabecalho__itens__links">Projetos</a>
+                </li>
+                <li>
+                    <a href="certificados.html" class="cabecalho__itens__links">Certificados</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="principal">
+        <section class="apresentacao__tres"> <!-- Apresentação do meu projeto anterior, utilizando listas ordenadas. -->
+            <h1 style="font-size: 40px;">Projeto: Capacitor Caseiro</h1>
+            <div>
+                <img src="img/capacitor.jpg" style="height: 400px; width: 500px; text-align: center; border: solid 16px; box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);;"alt="Imagem de um capacitor">
+            </div>
+            <p style="font-size: 30px;"><span class="texto__verde">Descrição:</span> O projeto consiste em demonstrar a possibilidade de fazer um power bank caseiro, <br>utilizando recursos domiciliares, podendo armazenar qualquer tipo de energia.</p>
+            <div class="apresentacao__tres__materiais">
+                <h2 class="apresentacao__tres__titulo texto__verde">Materiais</h2>
+                <ol class="apresentacao__tres__materiais__lista">
+                    <li>Um recipiente plástico</li>
+                    <li>Fios de cobre</li>
+                    <li>Rolo de alumínio</li>
+                    <li>Água com sal</li>
+                    <li>Fita isolante</li>
+                    <li>Uma haste de cobre</li>
+                </ol>
+            </div> 
+        </section>
+
+    </section>
+    <footer class="rodape">
+        <p>Direitos reservados para André Nascimento. &copy;</p>
+    </footer>
