@@ -39,7 +39,7 @@ O projeto foi dividido em duas fases:
 ## 🎨 Protótipo (Figma ou Similar)
 
 Link para o protótipo criado no Figma:  
-[🔗 Ver protótipo]  [https://www.figma.com/design/V1OFkOb1kvDN0nuiGksb21/Figma-for-Edu---Auto-Layout-in-UI3--Community-?node-id=0-1&t=wCnlqGRCSgBBwwGd-1]
+[🔗 Ver protótipo]  [https://www.figma.com/design/6BGBnzRIyLMDWOcld4mJXe/Portf%C3%B3lio?node-id=0-1&t=moqT1qY5cnHCOWtn-1]
 
 ---
 
