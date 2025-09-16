@@ -39,7 +39,7 @@ O projeto foi dividido em duas fases:
 ## 🎨 Protótipo (Figma ou Similar)
 
 Link para o protótipo criado no Figma:  
-[🔗 Ver protótipo]  [https://www.figma.com/design/6BGBnzRIyLMDWOcld4mJXe/Portf%C3%B3lio?node-id=0-1&t=moqT1qY5cnHCOWtn-1]
+[🔗 Ver protótipo](https://www.figma.com/design/6BGBnzRIyLMDWOcld4mJXe/Portf%C3%B3lio?node-id=0-1&t=moqT1qY5cnHCOWtn-1)
 
 ---
 
