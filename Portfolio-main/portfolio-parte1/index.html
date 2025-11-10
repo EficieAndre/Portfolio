@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+
+    <style>
+        /* Mantém a rolagem suave mesmo sem JavaScript */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div id="mensagemBoasVindas" class="mensagem__boasvindas"></div>
+    <header class="cabecalho">
+        <nav>
+            <ul class="cabecalho__itens">
+                <li><a href="#topo" class="cabecalho__itens__links">Home</a></li>
+                <li><a href="#projetos" class="cabecalho__itens__links">Projetos</a></li>
+                <li><button class="modo__noturno cabecalho__itens__links">🌙</button></li>
+                <li><a href="#formContato" class="cabecalho__itens__links">Contato</a></li>
+                <li><a href="#certificados" class="cabecalho__itens__links">Certificados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal" id="topo">
+        <section class="apresentacao linha__separadora__main">
+            <img src="Img/foto.jpg" class="apresentacao__imagem" alt="Foto de André Nascimento">
+            <p class="apresentacao__texto">
+                André Nascimento, 19 anos, <span class="texto__verde">cursando Engenharia de Computação</span> na UNISANTA, iniciante no rumo da programação, experiente e apaixonado por <span class="texto__verde">hardware</span>.
+            </p>
+        </section>
+
+        <section class="apresentacao__dois linha__separadora">
+            <div class="apresentacao__sobre__mim">
+                <h1>Sobre mim</h1>
+                <p>Atualmente estou cursando <span class="texto__verde">Engenharia da Computação</span> na UNISANTA (Santos - SP), no 2º semestre, com 19 anos.</p>
+                <p>Tenho conhecimentos em <span class="texto__verde">língua inglesa</span> avançada, e em linguagens de programação como <span class="texto__verde">HTML, CSS e C++</span>, adquiridos durante a formação e estudos autodidatas.</p>
+                <p>Meu principal objetivo é atuar na <span class="texto__verde">área de hardware</span>, aplicando e expandindo meus conhecimentos técnicos para contribuir em soluções inovadoras.</p>
+            </div>
+            <img src="Img/foto2.jpg" style="width: 500px;" class="sobre__mim__imagem" alt="Foto de André Nascimento"> 
+        </section>
+
+        <!-- SEÇÃO DE PROJETOS -->
+        <section class="apresentacao__tres linha__separadora" id="projetos">
+  <h1 class="certificados__titulo">Projetos</h1>
+
+  <div class="carrossel carrossel__projetos">
+    <div class="carrossel__conteudo">
+      
+      <!-- Slide 1 -->
+      <div class="carrossel__item ativo">
+        <h2 class="carrossel__titulo">Projeto: Capacitor Caseiro</h2>
+        <img src="img/capacitor.jpg" class="carrossel__imagem" style="height: 700px" alt="Imagem de um capacitor caseiro">
+        <p class="texto__projetos__descricao">
+          <span class="texto__verde">Descrição:</span> O projeto demonstra a possibilidade de construir um power bank caseiro utilizando recursos domésticos, capaz de armazenar energia.
+        </p>
+        <div class="apresentacao__tres__materiais">
+          <h3 class="apresentacao__tres__titulo texto__verde">Materiais</h3>
+          <ol class="apresentacao__tres__materiais__lista">
+            <li>Um recipiente plástico</li>
+            <li>Fios de cobre</li>
+            <li>Rolo de alumínio</li>
+            <li>Água com sal</li>
+            <li>Fita isolante</li>
+            <li>Uma haste de cobre</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carrossel__item">
+        <h2 class="carrossel__titulo">Projeto: UselessBox Ender Chest</h2>
+        <img src="img/projeto2.jpg" class="carrossel__imagem" style="height: 700px" alt="Imagem de um sensor de umidade">
+        <p class="texto__projetos__descricao">
+          <span class="texto__verde">Descrição:</span> Uma useless box, que tem três maneiras diferentes de se desligar, sendo o tema escolhido, o Báu do Ender do jogo virtual Minecraft
+        </p>
+        <div class="apresentacao__tres__materiais">
+          <h3 class="apresentacao__tres__titulo texto__verde">Materiais</h3>
+          <ol class="apresentacao__tres__materiais__lista">
+            <li>1 Placa Arduíno Uno</li>
+            <li>1 Micro-servo motor sg90</li>
+            <li>2 Servos motores mg996r</li>
+            <li>5 leds de UV</li>
+            <li>1 buzzer piezzo</li>
+            <li>2 metros quadrados de mdf de 6mm</li>
+            <li>1 Regulador de tensão l7805cv</li>
+            <li>1 Pilha de 9V</li>
+            <li>7 Bornes de 2 pinos</li>
+            <li>4 bornes de 3 pinos</li>
+            <li>1 Switch de chave</li>
+            <li>3 Metros de fio</li>
+            <li>5 Resistores de 220ohms</li>
+            <li>1 Resistor de 10kohm</li>
+            <li>1 Chave gangorra</li>
+            <li>1 barra de 32 pinos</li>
+            <li>Materiais reutilizáveis: Papelão, pedaços de pvc, e couro</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Botões -->
+    <button class="carrossel__botao anterior">&#10094;</button>
+    <button class="carrossel__botao proximo">&#10095;</button>
+  </div>
+</section>
+
+            
+        <!-- SEÇÃO DE CERTIFICADOS -->
+        <section class="apresentacao__quatro linha__separadora" id="certificados">
+            <h1 style="text-align: center; padding: 1rem;" class="certificados__titulo">Certificados</h1>
+
+            <div class="carrossel">
+                <button class="carrossel__botao anterior">❮</button>
+
+                <div class="carrossel__conteudo">
+                    <div class="carrossel__item ativo">
+                        <img src="img/crsul.png" alt="Certificado Cruzeiro do Sul" class="carrossel__imagem">
+                        <p class="carrossel__texto">
+                        Certificado de conclusão de curso (EAD) de Técnico em Eletrônica - Cruzeiro do Sul
+                        </p>
+                    </div>
+
+                    <div class="carrossel__item">
+                        <img src="Img/wizard.png" alt="Certificado Wizard" class="carrossel__imagem">
+                        <p class="carrossel__texto">
+                        Certificado de conclusão de curso (presencial) língua estrangeira: Inglês - Wizard
+                        </p>
+                    </div>
+
+                </div>
+
+                <button class="carrossel__botao proximo">❯</button>
+            </div>
+        </section>
+
+
+        <section id="formContato" class="linha__separadora">
+            <div class="apresentacao__links" style="padding: 2rem;">
+                <h2 class="apresentacao__links__subtitulo">Acesse Minhas Redes</h2>
+                <a class="apresentacao__links__navegacao" href="https://instagram.com/andre_n_o">
+                    <img src="img/instagram.png" alt="Logo do Instagram" class="apresentacao__imagem__link">Instagram</a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/eficieandre">
+                    <img src="img/github.png" alt="Logo do GitHub" class="apresentacao__imagem__link">GitHub</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/eficieandre">
+                    <img src="img/linkedin.png" alt="Logo do LinkedIn" class="apresentacao__imagem__link">LinkedIn</a>
+            </div>
+        </section>
+
+        <section >
+            <form class="form" novalidate>
+                <h2 class="apresentacao__links__subtitulo">Digite sua mensagem</h2>
+                <div>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" class="formulario__campo">
+                    <div id="erro-nome" class="erro"></div>
+                </div>
+
+                <div>
+                    <input type="email" id="email" name="email" placeholder="E-mail" class="formulario__campo">
+                    <div id="erro-email" class="erro"></div>
+                </div>
+
+                <div>
+                    <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" class="formulario__campo__mensagem"></textarea>
+                    <div id="erro-mensagem" class="erro"></div>
+                </div>
+
+                <button type="submit" class="enviar">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="rodape"> 
+            <p>Direitos reservados para André Nascimento. &copy;</p>
+            <button id="abrirModal" class="botao__modal">ℹ️ Sobre o site</button>
+
+            <!-- MODAL -->
+            <div id="modalInfo" class="modal">
+            <div class="modal__conteudo">
+                <span class="modal__fechar" id="fecharModal">&times;</span>
+                <h2>Sobre o site</h2>
+                <p>
+                Este portfólio foi desenvolvido para apresentar meus projetos, estudos e conquistas acadêmicas.
+                O objetivo é compartilhar minha trajetória na área de <strong>Engenharia da Computação</strong>,
+                mostrando meus conhecimentos em <strong>hardware, programação e tecnologia</strong>.
+                </p>
+            </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <script src="script5.js"></script>
+    <script src="script6.js"></script>
+</body>
+</html>
